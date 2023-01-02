@@ -1,20 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Mono:wght@700&display=swap');
-@font-face {
-    font-family: "Samarkan Normal";
-    src: url("samarn.eot?") format("eot"),
-        url("samarn.woff") format("woff"),
-        url("samarn.ttf") format("truetype"),
-        url("samarn.svg#SamarkanNormal") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 :root{
     --main-color: red;
 }
 
 *{
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Questrial', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
@@ -57,13 +48,13 @@ body{
     color:#1f1f1f;
     text-transform: uppercase;
     font-size: 4rem;
-    font-family:'Samarkan Normal';
+    font-family: 'Questrial', sans-serif;
 }
 
 .heading span{
     color:var(--main-color);
     text-transform: uppercase;
-    font-family:'Samarkan Normal';
+    font-family: 'Questrial', sans-serif;
 }
 
 .btn{
@@ -105,14 +96,14 @@ body{
     color: #d4d4d4;
     font-size: 2rem;
     position: fixed;
-    font-family:'Samarkan Normal';
+    font-family: 'Questrial', sans-serif;
 }
 
 .header .logo span{
     color:var(--main-color);
     text-transform: none;
     font-size: 3rem;
-    font-family:'Samarkan Normal';
+    font-family: 'Questrial', sans-serif;
 }
 
 .header #logo{
@@ -169,7 +160,7 @@ body{
         max-width: 100%;
 }
 
-.home .content h1{
+/*.home .content h1{
     font-family:'Samarkan Normal';
     color: var(--main-color);
     font-size: 7.5rem;
@@ -185,7 +176,7 @@ body{
     font-size: 4.5rem;
     text-transform: uppercase;
     margin-left: 300px;
-}
+}*/
 
 .home .home-slider .swiper-slide{
     overflow: hidden;
@@ -215,13 +206,15 @@ body{
     letter-spacing: 1rem;
     text-transform: uppercase;
     font-size: x-large;
+    font-family: 'Questrial', sans-serif;
 }
 .update .update-container li{
     display: inline-flexbox;
     font-size: x-large;
     list-style-type: none;
     padding: 1rem;
-    text-transform: uppercase;
+    text-transform: none;
+    font-family: 'Cormorant Garamond', serif;
 }
 .update .update-container li span{
     display: block;
@@ -232,11 +225,13 @@ body{
     color: #ffffff;
     font-size: x-large;
     font-style: italic;
+    font-family: 'Questrial', sans-serif;
 }
 .update .news p span{
     display: inline-block;
     font-size: 3.5rem;
     text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
 }
 .update .news p span a{
     text-decoration: none;
@@ -293,6 +288,7 @@ body{
     font-weight: 700;
     color:#1f1f1f;
     padding:1rem 0;
+    font-family: 'Cormorant Garamond', serif;
 }
 .events{
     padding: 2rem 8%;
