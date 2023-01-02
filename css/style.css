@@ -238,6 +238,10 @@ body{
     font-size: 3.5rem;
     text-decoration: none;
 }
+.update .news p span a{
+    text-decoration: none;
+    color: red;
+}
 .about{
     padding: 2rem 9%;
 }
