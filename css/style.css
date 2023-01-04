@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 :root{
     --main-color: red;
@@ -212,14 +212,14 @@ body{
     display: inline-flexbox;
     font-size: x-large;
     list-style-type: none;
-    padding: 1rem;
+    padding: 1.5rem;
     text-transform: none;
     font-family: 'Cormorant Garamond', serif;
 }
 .update .update-container li span{
-    display: block;
+    display: inline-block;
     background-color: rgb(102, 81, 81);
-    font-size: 5.5rem;
+    font-size: 4.5rem;
 }
 .update .news{
     color: #ffffff;
@@ -245,7 +245,7 @@ body{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap:1.5rem;
+    gap:4.5rem;
 }
 
 .about .row .image{
@@ -288,6 +288,7 @@ body{
     font-weight: 700;
     color:#1f1f1f;
     padding:1rem 0;
+    text-align: "justify";
     font-family: 'Cormorant Garamond', serif;
 }
 .events{
@@ -380,20 +381,6 @@ body{
     color:var(--main-color);
 }
 
-.sponsors .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap:1.5rem;
-}
-
-.sponsors .box-container .box{
-    padding:0rem 0;
-    text-align: center;
-}
-
-.sponsors .box-container .box:hover{
-    transform: scale(1.03);
-}
 
 .contact .box-container{
     display: grid;
@@ -419,6 +406,12 @@ body{
     line-height: 3rem;
     color: #1f1f1f;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 .contact .box-container .box:hover {
     transform: scale(1.03);
@@ -452,11 +445,11 @@ body{
 .footer .center {
     text-align: center;
 }
-.footer .copyright{
+.footer .copyrights{
     text-align: center;
-    font-size: large;
+    font-size: small;
     font-weight: bold;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     letter-spacing: .5rem;
 }
 
