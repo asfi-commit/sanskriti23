@@ -223,19 +223,19 @@ body{
 }
 .update .news{
     color: #ffffff;
-    font-size: x-large;
-    font-style: italic;
+    font-size: medium;
+    font-style: bold;
     font-family: 'Questrial', sans-serif;
 }
 .update .news p span{
     display: inline-block;
-    font-size: 3.5rem;
+    font-size: 2.0rem;
     text-decoration: none;
     font-family: 'Cormorant Garamond', serif;
 }
 .update .news p span a{
     text-decoration: none;
-    color: red;
+    color: rgb(230, 51, 51);
 }
 .about{
     padding: 2rem 9%;
